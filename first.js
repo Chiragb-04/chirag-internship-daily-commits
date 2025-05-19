@@ -15,4 +15,8 @@ let sum = num1 + num2;
 
 // Show the result
 console.log("The sum is: " + sum);
+<<<<<<< HEAD
 alert("The sum is: " + sum);
+=======
+alert("The sum is: " + sum);
+>>>>>>> 3c397f1 (add new functions)
