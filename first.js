@@ -16,4 +16,3 @@ let sum = num1 + num2;
 // Show the result
 console.log("The sum is: " + sum);
 alert("The sum is: " + sum);
-alert("The sum is: " + sum);
