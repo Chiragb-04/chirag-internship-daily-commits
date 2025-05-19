@@ -33,7 +33,7 @@ console.log(x<y && x==5)
 console.log(x>y || x==5)
 
 
-// use if- else 
+// use if else 
 let a = prompt("hey whats you age?");
 a = Number.parseInt(a);
 if(a<0){
