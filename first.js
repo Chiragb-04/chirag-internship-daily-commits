@@ -1,4 +1,3 @@
-// add prompt function
 let name = prompt("Enter your name:");
 console.log("Hello, " + name + "!");
 
@@ -13,6 +12,6 @@ console.log("Hello, " + name + "!");
 // Add the numbers
 let sum = num1 + num2;
 
-// Show the result
+// Show the resulttus
 console.log("The sum is: " + sum);
 alert("The sum is: " + sum);
