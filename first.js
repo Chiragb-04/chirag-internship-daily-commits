@@ -15,3 +15,4 @@ let sum = num1 + num2;
 // Show the resulttus
 console.log("The sum is: " + sum);
 alert("The sum is: " + sum);
+
