@@ -134,7 +134,7 @@ setTimeout(() => {
 }, 1000)
 
 try {
-    setTimeout(() => {
+    setTimeout(() => {   // handle the error if try catch block in inner part
         try {
             console.log(chirag)
         } catch (error) {
@@ -158,3 +158,7 @@ setTimeout(() => {
 setTimeout(() => {
     console.log("Username and password of chirag (+919395954598) fetched... Please wait...")
 }, 4000)
+
+
+let btn1 = document.querySelector("#btn1")
+
