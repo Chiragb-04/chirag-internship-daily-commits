@@ -160,5 +160,9 @@ setTimeout(() => {
 }, 4000)
 
 
-let btn1 = document.querySelector("#btn1")
+let submitButton = document.querySelector("#submitButton");
+
+submitButton.addEventListener("click", () => {
+    console.log("Submit button clicked!");
+})
 

@@ -1,4 +1,4 @@
-const URL = "https://catfact.ninja/fact?limit=5";
+ import { URL } from "./URL.js";
 const factPara = document.querySelector("#fact");
 const button = document.querySelector("#btn");
 

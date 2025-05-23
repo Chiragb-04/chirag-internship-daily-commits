@@ -1,4 +1,4 @@
-const countryList = {
+export const countryList = {
     AED: "AE",
     AFN: "AF",
     XCD: "AG",
@@ -11,3 +11,7 @@ const countryList = {
     JPY: "JP",
     USD: "US",
 };
+
+
+export const API_URL = "https://latest.currency-api.pages.dev/v1/currencies/eur.json"
+
