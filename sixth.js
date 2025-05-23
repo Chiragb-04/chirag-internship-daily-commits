@@ -1,6 +1,6 @@
  import { URL } from "./URL.js";
-const factPara = document.querySelector("#fact");
-const button = document.querySelector("#btn");
+const factDisplayElement = document.querySelector("#fact");
+const fetchFactButton = document.querySelector("#btn");
 
 // using async await
 const getFacts = async () => {
@@ -8,7 +8,7 @@ const getFacts = async () => {
     let response = await fetch(URL);
     console.log(response); //JSON format
     let data = await response.json();
-    factPara.innerText = data.fact;
+    factDisplayElement.innerText = data.fact;
 };
 
 
